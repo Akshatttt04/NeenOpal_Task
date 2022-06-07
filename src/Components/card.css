@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300&display=swap');
+*{
+    font-family: 'Noto Sans', sans-serif;
+}
+.mainContainer{
+    margin-top: 20px;
+    /* max-width: 360px; */
+    width: 290px;
+    height: 400px;
+    border: 1px solid #f5f5f5;
+}
+.middleSection{
+    margin-top: 10px;
+    max-width: 360px;
+    height: 135px;
+    
+}
+.bottomSection{
+    max-width: 360px;
+    height: 42px;
+    background-color: #f5f5f5;
+}
+.imageContainer{
+    background-color: #f5f5f5;
+    text-align: center;
+}
+.design{
+    margin-left: 20px;
+    font-size: 100%;
+    font-weight:bold;
+}
+.imageView{
+    width: 200px;
+}
+.phoneImage{
+    width: 20px;
+    padding-top: 0px;
+}
+.textAlign{
+    margin-left: 10px;
+    font-size: 85%;
+}
+.alginIcon{
+    display: flex;
+    margin-bottom: 6px;
+}
+.mainEntry{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 250px);
+    margin-left: 30px;
+    column-gap: 90px;
+}
+
+
+.designAlign{
+    display: flex;
+    justify-content:space-around;
+    padding: 10px;
+}
+
+.bottomEdit{
+    cursor: pointer;
+    stroke: red !important;
+}
+
+.editTab{
+    position: fixed;
+    width: 500px;
+    height: 70px;
+    top: 17%;
+    left: 30%;
+    background-color: #E5E7E9;
+    z-index: 2;
+}
+
+.editTabTop{
+    height: 30px;
+    background-color: #E5E7E9;
+    color: black;
+    display: flex;
+    justify-content: space-between;
+    font-size: 120%;
+    margin: 15px;
+}
+.editTabMain{
+    text-align: center;
+    height: 280px;
+    background-color: #E5E7E9;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    color: black;
+    
+}
+.editTabBottom{
+    height: 50px;
+    background-color: #E5E7E9;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 10px;
+    padding-top:10px
+}
+.inputField{
+    margin:30px;
+}
+.inputM{
+    border: none;
+}
+.inputM:focus{
+    outline: none;
+}
